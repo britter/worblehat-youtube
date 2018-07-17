@@ -15,3 +15,10 @@ You can vote on the issues in order to influence the order of the Product Backlo
 * [Most voted issues](https://github.com/scrum-for-developers/worblehat-youtube/issues?utf8=%E2%9C%93&q=is%3Aopen+sort%3Areactions-%2B1-desc)
 * [Tast Board / Product Backlog](https://github.com/scrum-for-developers/worblehat-youtube/projects/1)
 
+# Maven Wrapper
+
+You can use the maven wrapper to compile and execute the application
+
+* Compile everything: `./mvnw clean install`
+* Run the application: `./mvnw -pl worblehat-web spring-boot:run
+* Run the acceptancetests: `./mvnw Pinclude-acceptancetests -pl worblehat-acceptancetests test`
